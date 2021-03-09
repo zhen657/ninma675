@@ -1,2 +1,19 @@
-# ninma675
-Windows2019RDP-US Windows Server 2019 Github với RDP Access (ngrok US) Liên kết đại diện: https://github.com/aloksharmakumar77/Windows2019RDP-US  Tạo một VPS miễn phí với 2cpu-7gb Ram MIỄN PHÍ với Github:  Đối với Châu Á, hãy truy cập https://github.com/aloksharmakumar77/Windows2019RDP-AP  Nhấp vào Fork ở góc bên phải của màn hình để lưu nó vào Github của bạn. Truy cập https://dashboard.ngrok.com để nhận NGROK_AUTH_TOKEN Trong Github, đi tới Cài đặt> Bí mật> Bí mật về kho lưu trữ mới Trong Tên: nhập NGROK_AUTH_TOKEN Có giá trị: hãy truy cập https://dashboard.ngrok.com/auth/your-authtoken Sao chép và dán Authtoken của bạn vào Nhấn Thêm bí mật Đi tới Hành động> CI> Chạy dòng công việc Tải lại trang và nhấn CI> xây dựng Nhấn mũi tên xuống trên Kết nối với RPD của bạn để lấy IP, Người dùng, Mật khẩu. NẾU REPO CỦA TÔI BỊ XÓA, TRÊN GITHUB CỦA BẠN, HÃY ĐẾN .github / workflows> RDP-US.yml VÀ CHỈNH SỬA LIÊN KẾT MỚI CHO REPO CỦA BẠN. TẤT CẢ .BAT trong Tệp FOLDER
+# Windows2019RDP-US
+Windows Server 2019 Github with RDP Access (ngrok US) 
+Repo link: https://github.com/aloksharmakumar77/Windows2019RDP-US
+
+Create a free VPS with 2cpu-7gb Ram FREE with Github:
+
+*For Asia go to https://github.com/aloksharmakumar77/Windows2019RDP-AP*
+
++ Click Fork in the right corner of the screen to save it to your Github.
++ Visit https://dashboard.ngrok.com to get NGROK_AUTH_TOKEN
++ In Github go to Settings> Secrets> New repository secret
++ In Name: enter NGROK_AUTH_TOKEN
++ In Value: visit https://dashboard.ngrok.com/auth/your-authtoken Copy and Paste Your Authtoken into
++ Press Add secret
++ Go to Action> CI> Run workflow
++ Reload the page and press CI> build
++ Press the down arrow on Connect To Your RPD to get IP, User, Password.
+
+*IF MY REPO GOT DELETED,ON YOUR GITHUB GO TO .github/workflows > RDP-US.yml AND EDIT NEW LINK TO YOUR REPO. ALL .BAT in Files FOLDER* 
